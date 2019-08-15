@@ -14,7 +14,7 @@ namespace Maru.Net.Interfaces
 
         Task<IUser> GetUserAsync();
 
-        Task<IBeatmapSet> GetBeatmapSetAsync();
+        Task<List<IBeatmap>> GetBeatmapSetAsync();
 
         Task<IBeatmap> GetBeatmapAsync();
 
